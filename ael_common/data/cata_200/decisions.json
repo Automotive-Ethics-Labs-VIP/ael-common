@@ -1,0 +1,807 @@
+{
+ "spec": "ael-v1",
+ "kind": "decisions",
+ "source": "Team C CATA scenarios (corrected vectors), imported from Ethical_Head/data",
+ "decisions": {
+  "CATA_S001": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S002": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S003": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S004": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S005": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S006": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S007": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S008": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S009": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S010": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S011": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S012": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S013": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S014": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S015": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S016": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S017": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S018": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S019": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S020": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S021": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S022": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S023": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S024": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S025": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S026": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S027": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S028": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S029": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S030": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S031": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S032": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S033": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S034": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S035": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S036": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S037": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S038": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S039": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S040": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S041": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S042": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S043": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S044": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S045": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S046": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S047": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S048": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S049": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S050": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S051": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S052": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S053": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S054": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S055": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S056": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S057": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S058": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S059": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S060": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S061": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S062": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S063": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S064": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S065": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S066": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S067": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S068": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S069": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S070": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S071": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S072": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S073": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S074": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S075": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S076": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S077": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S078": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S079": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S080": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S081": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S082": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S083": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S084": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S085": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S086": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S087": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S088": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S089": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S090": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S091": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S092": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S093": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S094": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S095": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S096": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S097": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S098": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S099": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S100": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S101": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S102": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S103": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S104": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S105": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S106": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S107": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S108": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S109": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S110": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S111": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S112": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S113": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S114": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S115": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S116": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S117": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S118": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S119": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S120": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S121": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S122": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S123": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S124": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S125": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S126": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S127": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S128": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S129": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S130": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S131": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S132": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S133": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S134": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S135": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S136": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S137": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S138": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S139": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S140": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S141": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S142": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S143": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S144": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S145": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S146": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S147": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S148": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S149": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S150": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S151": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S152": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S153": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S154": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S155": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S156": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S157": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S158": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S159": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S160": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S161": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S162": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S163": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S164": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S165": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S166": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S167": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S168": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S169": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S170": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S171": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S172": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S173": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S174": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S175": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S176": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S177": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S178": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S179": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S180": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S181": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S182": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S183": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S184": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S185": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S186": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S187": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S188": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S189": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S190": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S191": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S192": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S193": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S194": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S195": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S196": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S197": {
+   "utilitarian": 2,
+   "kantian": 0
+  },
+  "CATA_S198": {
+   "utilitarian": 0,
+   "kantian": 0
+  },
+  "CATA_S199": {
+   "utilitarian": 1,
+   "kantian": 0
+  },
+  "CATA_S200": {
+   "utilitarian": 1,
+   "kantian": 0
+  }
+ }
+}
