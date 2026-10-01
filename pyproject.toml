@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ael-common"
-version = "0.1.0"
+version = "0.1.1"
 description = "Shared data agreement for the Automotive Ethics Lab: state vector spec, action IDs, file formats, validator, and the CATA-200 dataset"
 readme = "README.md"
 license = { text = "MIT" }

@@ -17,7 +17,7 @@ Current spec: **`ael-v1`**. No dependencies; Python 3.7+ (so it installs alongsi
 Pin a version tag:
 
 ```bash
-pip install "git+https://github.com/Automotive-Ethics-Labs-VIP/ael-common@v0.1.0"
+pip install "git+https://github.com/Automotive-Ethics-Labs-VIP/ael-common@v0.1.1"
 ```
 
 For development:
@@ -106,7 +106,9 @@ Every data file is a JSON object with `"spec"` and `"kind"`:
 {"spec": "ael-v1", "kind": "decisions", "decisions": {"CATA_S001": {"utilitarian": 0, "kantian": 0}}}
 ```
 
-`validate_file` / `check_file` reject a file whose spec or kind doesn't match.
+Every data file is checked against the format for its `kind` (`scenarios`, `decisions` or `split`): `validate_file` returns a list of problems, `check_file` raises. A wrong spec, an unknown kind or malformed JSON is reported as a problem.
+
+Vectors can be lists, numpy arrays or torch tensors, and `to_action` takes the result of `argmax` directly.
 
 ## Facts about CATA-200 worth knowing
 

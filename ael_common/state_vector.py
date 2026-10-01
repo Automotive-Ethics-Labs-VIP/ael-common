@@ -65,7 +65,7 @@ assert len(FIELD_NAMES) == DIM
 _INDEX = {name: i for i, name in enumerate(FIELD_NAMES)}
 
 BINARY_INDICES = frozenset(range(BLOCK_START["left"], DIM))
-COUNT_INDICES = frozenset([1, 4, 5, 6])
+COUNT_INDICES = frozenset([_INDEX["num_passengers"]] + list(CASUALTY_INDEX.values()))
 
 
 def index(name: str) -> int:
@@ -95,6 +95,9 @@ class Path(object):
             and self.obstacles == other.obstacles
             and self.vulnerable == other.vulnerable
         )
+
+    def __hash__(self) -> int:
+        return hash((self.obstacles, self.vulnerable))
 
     def __repr__(self) -> str:
         return "Path(obstacles={}, vulnerable={})".format(sorted(self.obstacles), sorted(self.vulnerable))
@@ -136,7 +139,11 @@ class State(object):
 
 
 def encode(state: State) -> List[float]:
-    """State -> 40 numbers in the ael-v1 layout."""
+    """State -> 40 numbers in the ael-v1 layout. Raises ValidationError if the
+    result breaks the spec (e.g. negative casualties, a vulnerable group with
+    no pedestrian)."""
+    from .validate import check_vector
+
     vec = [0.0] * DIM
     vec[0] = float(state.velocity_ego)
     vec[1] = float(state.num_passengers)
@@ -149,14 +156,18 @@ def encode(state: State) -> List[float]:
             vec[index("{}_{}".format(direction, t))] = 1.0
         for g in path.vulnerable:
             vec[index("{}_is_{}".format(direction, g))] = 1.0
+    check_vector(vec)
     return vec
 
 
 def decode(vec: Sequence[float]) -> State:
-    """40 numbers in the ael-v1 layout -> State. Validates first."""
+    """40 numbers in the ael-v1 layout -> State. Validates first.
+
+    Accepts lists, numpy arrays and torch tensors."""
     from .validate import check_vector
 
     check_vector(vec)
+    vec = [float(v) for v in vec]
     paths = OrderedDict()
     for direction in DIRECTIONS:
         start = BLOCK_START[direction]
