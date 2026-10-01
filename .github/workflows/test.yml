@@ -17,8 +17,8 @@ jobs:
           - { os: ubuntu-latest, python: "3.12" }
           - { os: windows-latest, python: "3.12" } # what most of the lab develops on
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
       - run: python -m pip install -e ".[dev]" numpy
