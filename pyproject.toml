@@ -12,7 +12,7 @@ requires-python = ">=3.7"
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = ["pytest", "hypothesis", "coverage"]
 
 [tool.setuptools.packages.find]
 include = ["ael_common*"]

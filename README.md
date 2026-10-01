@@ -10,7 +10,9 @@ It holds:
 - **A validator** that rejects wrong layouts, wrong action IDs and files from another spec version
 - **CATA-200**: the 200 hand-written crash scenarios with utilitarian and Kantian labels and the 160/40 train/test split
 
-Current spec: **`ael-v1`**. No dependencies; Python 3.7+ (so it installs alongside the CARLA 0.9.13 client).
+Current spec: **`ael-v1`**. No dependencies. Tested on Python 3.8 and 3.12, so it installs alongside the CARLA 0.9.13 client. Python 3.7 should work but isn't tested.
+
+Changing this repo (including with an AI agent)? Read [AGENTS.md](AGENTS.md).
 
 ## Install
 
