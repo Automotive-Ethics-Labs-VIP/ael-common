@@ -1,0 +1,26 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    name: Python ${{ matrix.python }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: ubuntu-22.04, python: "3.8" }   # CARLA 0.9.13 client floor
+          - { os: ubuntu-latest, python: "3.12" }
+          - { os: windows-latest, python: "3.12" } # what most of the lab develops on
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e ".[dev]" numpy
+      - run: python -m coverage run --branch --source=ael_common -m pytest -q
+      - run: python -m coverage report -m --fail-under=100
